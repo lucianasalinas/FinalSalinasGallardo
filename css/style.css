@@ -98,4 +98,19 @@ h1 {
 
 a {
     text-decoration: none;
+    color: #655d55;
+}
+
+
+
+/* PRODUCTOS */
+
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.marginCard {
+    margin-bottom: 15px;
 }
