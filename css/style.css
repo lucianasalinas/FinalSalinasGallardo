@@ -1,12 +1,17 @@
 /* * {
     border: 1px solid red; 
-} */
+}  */
 
 /* HEADER */
 
+header {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
 
 .headerEstilo {
     padding-bottom: 0px;
+    margin: 0;
     height: 150px;
     background-color: #B7A99C;
     font-size: 20px;
@@ -15,6 +20,7 @@
 .navColor {
     background-color: #B7A99C;
     padding-bottom: 20px;
+    margin: 0;
 }
 
 .navEstilo {
@@ -51,13 +57,24 @@
 
 
 /* MAIN */
-body {
+body.container-fluid {
     background-color: #eeeae7;
     margin: 0px;
+    padding: 0px;
+}
+
+
+
+.h1 {
+    padding-bottom: 20px;
+    margin: 0% 10%; 
+
+    display: flex;
+    justify-content: space-around;
+
 }
 
 h1 {
-    padding-bottom: 20px;
     font-size: 80px;
     color: #655d55;
 }
@@ -67,6 +84,7 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    flex-direction: row;
 }
 
 
@@ -97,6 +115,12 @@ h1 {
     background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+    .container-fluid {
+      flex-direction: column;
+    }
+  }
+
 a {
     text-decoration: none;
     color: #655d55;
@@ -114,4 +138,81 @@ a {
 
 .marginCard {
     margin-bottom: 15px;
+}
+
+.btnEstilo {
+    color: #fafafa;
+    background-color: #655d55;
+}
+
+.btnEstilo:hover {
+    color: #fafafa;
+    background-color: #36322d;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #B7A99C;
+    color: #655d55;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: #655d55;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #36322d;
+}
+
+footer .container {
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+.footer-main {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.footer-column {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.footer-heading {
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    display: block;
+    width: max-content;
+    padding: 5px 10px;
+    margin: 0 auto;
+}
+
+.social {
+    height: 25px;
+}
+
+.footer-bottom {
+    display: flex;
+}
+
+.copyright {
+    margin-right: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .footer-main {
+        flex-direction: column;
+    }
 }

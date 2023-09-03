@@ -10,10 +10,11 @@
     <!-- MY CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body class="container">
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+    <!-- HEADER -->
+    <header class="navbar navbar-expand-lg headerEstilo">
+            <div class="container-fluid navColor">
                 <a class="navbar-brand" href="../index.html">
                     <img class="logo" src="../img/logo.png" alt="LaMarca Logo">
                 </a>
@@ -22,34 +23,33 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            <a class="nav-link navEstilo" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="ropa.html">Ropa</a>
+                            <a class="nav-link navEstilo" aria-current="page" href="ropa.html">Ropa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="calzado.html">Calzado</a>
+                            <a class="nav-link navEstilo" aria-current="page" href="calzado.html">Calzado</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="accesorios.html">Accesorios</a>
+                            <a class="nav-link navEstilo" aria-current="page" href="accesorios.html">Accesorios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="preguntas.html">Preguntas Frecuentes</a>
+                            <a class="nav-link navEstilo" aria-current="page" href="preguntas.html">Preguntas Frecuentes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="vender.html">Vender</a>
+                            <a class="nav-link navEstilo" aria-current="page" href="vender.html">Vender</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="ej: Campera de cuero" aria-label="Search">
                         <button class="btn btnStyle" type="submit">Buscar</button>
                     </form>
-                </div>
+                </nav>
             </div>
-        </nav>
     </header>
 
     <!-- MAIN -->
@@ -59,114 +59,184 @@
     <div class="row">
         <div class="col-xl-3 col-md-6 col-sm-12">
             <div class="card marginCard">
-                <img src="../img/calzado.jpg" class="card-img-top" alt="foto de zapatillas deportivas">
+                <img src="../img/accesorio.jpg" class="card-img-top" alt="collar medallón">
                 <div class="card-body">
-                    <h5 class="card-title">Zapatillas deportivas</h5>
-                    <p class="card-text">$10.000</p>
-                    <a href="#" class="btn btn-primary">Ver</a>
+                    <h5 class="card-title">Collar Medallón</h5>
+                    <p class="card-text">$15.000</p>
+                    <a href="#" class="btn btnEstilo">Ver</a>
                 </div>
             </div>
         </div>
 
         <div class="col-xl-3 col-md-6 col-sm-12">
             <div class="card marginCard">
-                <img src="../img/booties.jpg" class="card-img-top" alt="booties">
+                <img src="../img/vintage-rings.jpg" class="card-img-top" alt="anillos vintage">
                 <div class="card-body">
-                    <h5 class="card-title">Booties de cuero</h5>
-                    <p class="card-text">$12.000</p>
-                    <a href="#" class="btn btn-primary">Ver</a>
+                    <h5 class="card-title">Set de Anillos Vintage de Oro </h5>
+                    <p class="card-text">$155.000</p>
+                    <a href="#" class="btn btnEstilo">Ver</a>
                 </div>
             </div>
         </div>
 
         <div class="col-xl-3 col-md-6 col-sm-12">
             <div class="card marginCard">
-                <img src="../img/vans.jpg" class="card-img-top" alt="zapatillas Vans">
+                <img src="../img/necklace-set.jpg" class="card-img-top" alt="set de collares">
                 <div class="card-body">
-                    <h5 class="card-title">Zapatillas Marca Vans</h5>
-                    <p class="card-text">$20.000</p>
-                    <a href="#" class="btn btn-primary">Ver</a>
+                    <h5 class="card-title">Set de Collares</h5>
+                    <p class="card-text">$7.000</p>
+                    <a href="#" class="btn btnEstilo">Ver</a>
                 </div>
             </div>
         </div>
 
         <div class="col-xl-3 col-md-6 col-sm-12">
             <div class="card marginCard">
-                <img src="../img/heel-boots.jpg" class="card-img-top" alt="botas color crema">
+                <img src="../img/gorro.jpg" class="card-img-top" alt="gorrito negro de lana">
                 <div class="card-body">
-                    <h5 class="card-title">Botas Tendencia</h5>
-                    <p class="card-text">$8.000</p>
-                    <a href="#" class="btn btn-primary">Ver</a>
+                    <h5 class="card-title">Gorro de Lana Negro</h5>
+                    <p class="card-text">$1.000</p>
+                    <a href="#" class="btn btnEstilo">Ver</a>
                 </div>
             </div>
         </div>
 
         <div class="col-xl-3 col-md-6 col-sm-12">
             <div class="card marginCard">
-                <img src="../img/heels.jpg" class="card-img-top" alt="tacos">
+                <img src="../img/ring-set.jpg" class="card-img-top" alt="set de anillos">
                 <div class="card-body">
-                    <h5 class="card-title">Tacos de Cuero Vintage</h5>
-                    <p class="card-text">$19.000</p>
-                    <a href="#" class="btn btn-primary">Ver</a>
+                    <h5 class="card-title">Set de Anillos 24 kts</h5>
+                    <p class="card-text">$199.000</p>
+                    <a href="#" class="btn btnEstilo">Ver</a>
                 </div>
             </div>
         </div>
 
         <div class="col-xl-3 col-md-6 col-sm-12">
             <div class="card marginCard">
-                <img src="../img/calzado.jpg" class="card-img-top" alt="foto de zapatillas deportivas">
+                <img src="../img/sunglasses.jpg" class="card-img-top" alt="lentes de sol negro">
                 <div class="card-body">
-                    <h5 class="card-title">Zapatillas deportivas</h5>
-                    <p class="card-text">$10.000</p>
-                    <a href="#" class="btn btn-primary">Ver</a>
+                    <h5 class="card-title">Lentes de Sol</h5>
+                    <p class="card-text">$500</p>
+                    <a href="#" class="btn btnEstilo">Ver</a>
                 </div>
             </div>
         </div>
 
         <div class="col-xl-3 col-md-6 col-sm-12">
             <div class="card marginCard">
-                <img src="../img/booties.jpg" class="card-img-top" alt="booties">
+                <img src="../img/accesorio.jpg" class="card-img-top" alt="collar medallón">
                 <div class="card-body">
-                    <h5 class="card-title">Booties de cuero</h5>
-                    <p class="card-text">$12.000</p>
-                    <a href="#" class="btn btn-primary">Ver</a>
+                    <h5 class="card-title">Collar Medallón</h5>
+                    <p class="card-text">$15.000</p>
+                    <a href="#" class="btn btnEstilo">Ver</a>
                 </div>
             </div>
         </div>
 
         <div class="col-xl-3 col-md-6 col-sm-12">
             <div class="card marginCard">
-                <img src="../img/vans.jpg" class="card-img-top" alt="zapatillas Vans">
+                <img src="../img/vintage-rings.jpg" class="card-img-top" alt="anillos vintage">
                 <div class="card-body">
-                    <h5 class="card-title">Zapatillas Marca Vans</h5>
-                    <p class="card-text">$20.000</p>
-                    <a href="#" class="btn btn-primary">Ver</a>
+                    <h5 class="card-title">Set de Anillos Vintage de Oro </h5>
+                    <p class="card-text">$155.000</p>
+                    <a href="#" class="btn btnEstilo">Ver</a>
                 </div>
             </div>
         </div>
 
         <div class="col-xl-3 col-md-6 col-sm-12">
             <div class="card marginCard">
-                <img src="../img/heel-boots.jpg" class="card-img-top" alt="botas color crema">
+                <img src="../img/necklace-set.jpg" class="card-img-top" alt="set de collares">
                 <div class="card-body">
-                    <h5 class="card-title">Botas Tendencia</h5>
-                    <p class="card-text">$8.000</p>
-                    <a href="#" class="btn btn-primary">Ver</a>
+                    <h5 class="card-title">Set de Collares</h5>
+                    <p class="card-text">$7.000</p>
+                    <a href="#" class="btn btnEstilo">Ver</a>
                 </div>
             </div>
         </div>
 
         <div class="col-xl-3 col-md-6 col-sm-12">
             <div class="card marginCard">
-                <img src="../img/heels.jpg" class="card-img-top" alt="tacos">
+                <img src="../img/gorro.jpg" class="card-img-top" alt="gorrito negro de lana">
                 <div class="card-body">
-                    <h5 class="card-title">Tacos de Cuero Vintage</h5>
-                    <p class="card-text">$19.000</p>
-                    <a href="#" class="btn btn-primary">Ver</a>
+                    <h5 class="card-title">Gorro de Lana Negro</h5>
+                    <p class="card-text">$1.000</p>
+                    <a href="#" class="btn btnEstilo">Ver</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card marginCard">
+                <img src="../img/ring-set.jpg" class="card-img-top" alt="set de anillos">
+                <div class="card-body">
+                    <h5 class="card-title">Set de Anillos 24 kts</h5>
+                    <p class="card-text">$199.000</p>
+                    <a href="#" class="btn btnEstilo">Ver</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card marginCard">
+                <img src="../img/sunglasses.jpg" class="card-img-top" alt="lentes de sol negro">
+                <div class="card-body">
+                    <h5 class="card-title">Lentes de Sol</h5>
+                    <p class="card-text">$500</p>
+                    <a href="#" class="btn btnEstilo">Ver</a>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-column">
+                    <h3 class="footer-heading">Heading 1</h3>
+                    <a class="footer-link" href="#">Link 1</a>
+                    <a class="footer-link" href="#">Link 2</a>
+                    <a class="footer-link" href="#">Link 3</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-heading">Heading 1</h3>
+                    <a class="footer-link" href="#">Link 1</a>
+                    <a class="footer-link" href="#">Link 2</a>
+                    <a class="footer-link" href="#">Link 3</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-heading">Heading 1</h3>
+                    <a class="footer-link" href="#">Link 1</a>
+                    <a class="footer-link" href="#">Link 2</a>
+                    <a class="footer-link" href="#">Link 3</a>
+                </div>
+            </div>
+
+
+
+            <div class="footer-bottom">
+                <span class="copyright">&copy; 2023 Luciana Salinas-Gallardo</span>
+                <a href="#">
+                    <img class="social" src="img/fb.png" alt="Encontranos en Facebook">
+                </a>
+
+                <a href="#">
+                    <img class="social" src="img/ig.png" alt="Encontranos en Instagram">
+                </a>
+
+                <a href="#">
+                    <img class="social" src="img/tw.png" alt="Encontranos en Twitter">
+                </a>
+            </div>
+
+        </div>
+    </footer>
 
     <!-- SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
