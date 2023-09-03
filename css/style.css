@@ -1,17 +1,12 @@
 /* * {
     border: 1px solid red; 
-}  */
+}   */
 
 /* HEADER */
 
-header {
-    margin: 0;
-    padding: 0px 0px 0px 0px;
-}
 
 .headerEstilo {
-    padding-bottom: 0px;
-    margin: 0;
+    padding-bottom: 20px;
     height: 150px;
     background-color: #B7A99C;
     font-size: 20px;
@@ -21,6 +16,7 @@ header {
     background-color: #B7A99C;
     padding-bottom: 20px;
     margin: 0;
+    z-index: 3;
 }
 
 .navEstilo {
@@ -64,8 +60,7 @@ body.container-fluid {
 }
 
 
-
-.h1 {
+.display-1 {
     padding-bottom: 20px;
     margin: 0% 10%; 
 
@@ -115,18 +110,38 @@ h1 {
     background-size: cover;
 }
 
-@media screen and (max-width: 768px) {
-    .container-fluid {
-      flex-direction: column;
-    }
-  }
-
 a {
     text-decoration: none;
     color: #655d55;
 }
 
+@media only screen and (max-width: 768px) {
+    .h1 {
+      flex-direction: column;
+    }
+  }
 
+@media only screen and (max-width: 992px) {
+    .container-fluid {
+      flex-direction: column;
+    }
+  }
+
+
+  .enlaces {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .enlaces:hover {
+    background-color: yellow;
+  }
+
+
+  .mapa {
+    height: 300px;
+    width: 500px;
+  }
 
 /* PRODUCTOS */
 
@@ -157,7 +172,7 @@ a {
 footer {
     background-color: #B7A99C;
     color: #655d55;
-    padding-bottom: 20px;
+    padding: 20px 0px;
     display: flex;
     justify-content: center;
 }
@@ -172,7 +187,7 @@ footer a:hover {
 }
 
 footer .container {
-    max-width: 500px;
+    max-width: 1200px;
     margin: 0px auto;
 }
 
