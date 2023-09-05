@@ -143,6 +143,10 @@ a {
     width: 500px;
   }
 
+  .formEspacio {
+    margin-bottom: 15px;
+  }
+
 /* PRODUCTOS */
 
 .card-img-top {

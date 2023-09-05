@@ -56,7 +56,115 @@
 
 
     <main class="container">
-        <h1>Vender</h1>
+
+        <h3>Información General</h3>
+        <div class="formEspacio">
+            <label for="articulo" class="form-label">Tipo de artículo:</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Elegir</option>
+                <option value="1">Ropa</option>
+                <option value="2">Calzado</option>
+                <option value="3">Accesorio</option>
+            </select>
+        </div>
+
+        <div class="mb-3 formEspacio">
+            <label for="marca" class="form-label">Nombre de la marca:</label>
+            <input type="text" class="form-control" id="marca" placeholder="Levi's" required>
+        </div>
+
+
+        <div class="formEspacio">
+            <label for="articulo" class="form-label">Material:</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Elegir</option>
+                <option value="1">Algodón</option>
+                <option value="2">Cuero</option>
+                <option value="3">Cuerina</option>
+                <option value="1">Poliéster</option>
+                <option value="2">Seda</option>
+                <option value="3">Mescla</option>
+                <option value="3">Otro</option>
+            </select>
+        </div>
+
+        <div class="formEspacio">
+            <label for="color" class="form-label">Color:</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Elegir</option>
+                <option value="1">Blanco</option>
+                <option value="2">Negro</option>
+                <option value="3">Gris</option>
+                <option value="1">Beige</option>
+                <option value="2">Rojo</option>
+                <option value="3">Naranja</option>
+                <option value="3">Amarillo</option>
+                <option value="2">Verde</option>
+                <option value="3">Azul</option>
+                <option value="3">Violeta</option>
+                <option value="3">Otro</option>
+            </select>
+        </div>
+
+        <div class="formEspacio">
+            <label for="estampado" class="form-label">Estampado:</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Elegir</option>
+                <option value="1">Ninguno</option>
+                <option value="2">Rayas</option>
+                <option value="3">Floreado</option>
+                <option value="1">Lunares</option>
+                <option value="2">Leopardo</option>
+                <option value="3">Escocés</option>
+                <option value="3">Cebra</option>
+                <option value="3">Otro</option>
+            </select>
+        </div>
+
+        <div class="formEspacio">
+            <label for="vintage" class="form-label">Marque "si" si esta prenda de vestir tiene 15 años o más, se
+                considera vintage.</label>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="vintage" id="vintage">
+                <label class="form-check-label" for="vintage">
+                    Si, es vintage.
+                </label>
+            </div>
+        </div>
+
+        <hr>
+        <h3>Fotos</h3>
+
+        <div class="input-group mb-3 formEspacio">
+            <input type="file" class="form-control" id="inputGroupFile02">
+            <label class="input-group-text" for="inputGroupFile02">Subir Archivo</label>
+        </div>
+
+        
+        <hr>
+        <h3>Estado y Precio</h3>
+        
+        <div class="formEspacio">
+            <label for="estado" class="form-label">Estado:</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Elegir</option>
+                <option value="1">Sin usar, con etiqueta</option>
+                <option value="2">Sin usar</option>
+                <option value="3">Muy buen estado</option>
+                <option value="1">Buen estado</option>
+            </select>
+        </div>
+        
+        <div class="mb-3 formEspacio">
+            <label for="infoAd" class="form-label">Agregar información adicional si es necesario</label>
+            <textarea class="form-control" id="infoAd" rows="3" placeholder="ej: Este artículo tiene un agujero."></textarea>
+        </div>
+
+        <div class="mb-3 formEspacio">
+            <label for="precio" class="form-label">Precio:</label>
+            <input type="number" class="form-control" id="precio" required>
+        </div>
     </main>
 
     <!-- FOOTER -->
