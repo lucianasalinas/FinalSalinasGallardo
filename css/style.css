@@ -1,9 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&display=swap');
+
 /* * {
     border: 1px solid red; 
 }   */
 
-/* HEADER */
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: #655d55;
+}
 
+.display-1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.footer-heading {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* HEADER */
 
 .headerEstilo {
     padding-bottom: 20px;
@@ -36,6 +53,7 @@
     display: flex;
     gap: 10px;
 }
+
 /* .navSearch {
     color: red
 } */
@@ -59,19 +77,17 @@ body.container-fluid {
     padding: 0px;
 }
 
+main {
+    margin: 20px 0px;
+}
 
 .display-1 {
     padding-bottom: 20px;
-    margin: 0% 10%; 
+    margin: 0% 10%;
 
     display: flex;
     justify-content: space-around;
 
-}
-
-h1 {
-    font-size: 80px;
-    color: #655d55;
 }
 
 
@@ -85,7 +101,7 @@ h1 {
 
 .caja {
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 25px;
 
     height: 600px;
@@ -115,37 +131,53 @@ a {
     color: #655d55;
 }
 
+.parrafo {
+    margin: 0 15%;
+}
+
+
 @media only screen and (max-width: 768px) {
     .h1 {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
+}
 
 @media only screen and (max-width: 992px) {
     .container-fluid {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
+}
 
 
-  .enlaces {
+h2 {
+    margin-top: 15px;
+}
+
+.enlaces {
     font-weight: bold;
     text-decoration: none;
-  }
+}
 
-  .enlaces:hover {
+.enlaces:hover {
     background-color: yellow;
-  }
+}
 
 
-  .mapa {
+.mapa {
     height: 300px;
     width: 500px;
-  }
+}
 
-  .formEspacio {
+.formEspacio {
     margin-bottom: 15px;
-  }
+}
+
+input,
+select,
+select.form-select:focus,
+.form-control {
+    box-shadow: none !important;
+}
 
 /* PRODUCTOS */
 
