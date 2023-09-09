@@ -105,8 +105,8 @@ main {
     font-weight: bolder;
     font-size: 25px;
 
-    height: 600px;
-    width: 500px;
+    height: auto;
+    width: auto;
 
     text-align: center;
     line-height: 600px;
@@ -147,22 +147,7 @@ a {
     background-size: cover;
 }
 
-@media only screen and (max-width: 768px) {
-    .h1 {
-        flex-direction: column;
-    }
 
-    .flexContainer {
-        flex-direction: column;
-    }
-}
-
-
-@media only screen and (max-width: 992px) {
-    .container-fluid {
-        flex-direction: column;
-    }
-}
 
 
 
@@ -279,9 +264,26 @@ footer .container {
     margin-right: auto;
 }
 
-
 @media only screen and (max-width: 768px) {
+    .h1 {
+        flex-direction: column;
+    }
+
     .footer-main {
+        flex-direction: column;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .container-fluid {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .flexContainer {
         flex-direction: column;
     }
 }
