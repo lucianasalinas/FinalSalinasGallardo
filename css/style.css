@@ -75,6 +75,11 @@ body.container-fluid {
     background-color: #eeeae7;
     margin: 0px;
     padding: 0px;
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    flex-direction: row;
 }
 
 main {
@@ -86,17 +91,18 @@ main {
     margin: 0% 10%;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
 
 }
 
 
-.flexContainer {
+/* .flexContainer {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
     flex-direction: row;
-}
+} */
 
 
 .caja {
@@ -135,12 +141,23 @@ a {
     margin: 0 15%;
 }
 
+.fotoCarousel {
+    background-size: cover;
+}
+
+.myMainCarousel {
+    margin: 0 40%;    
+    height: fit-content;
+    width: fit-content;
+    background-size: cover;
+}
 
 @media only screen and (max-width: 768px) {
     .h1 {
         flex-direction: column;
     }
 }
+
 
 @media only screen and (max-width: 992px) {
     .container-fluid {
