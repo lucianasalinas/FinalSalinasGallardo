@@ -75,11 +75,6 @@ body.container-fluid {
     background-color: #eeeae7;
     margin: 0px;
     padding: 0px;
-
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    flex-direction: row;
 }
 
 main {
@@ -97,12 +92,12 @@ main {
 }
 
 
-/* .flexContainer {
+.flexContainer {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
     flex-direction: row;
-} */
+}
 
 
 .caja {
@@ -156,6 +151,10 @@ a {
     .h1 {
         flex-direction: column;
     }
+
+    .flexContainer {
+        flex-direction: column;
+    }
 }
 
 
@@ -164,6 +163,8 @@ a {
         flex-direction: column;
     }
 }
+
+
 
 
 h2 {
