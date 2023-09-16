@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&display=swap');
 
-/* * {
-    border: 1px solid red; 
-}   */
 
-*{
+* {
     font-family: 'Montserrat', sans-serif;
     color: #655d55;
 }
 
-.display-1{
+.display-1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-style: italic;
@@ -92,45 +89,53 @@ main {
 }
 
 
-.flexContainer {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    flex-direction: row;
-}
 
 
-.caja {
-    color: black;
-    font-weight: bolder;
-    font-size: 25px;
-
-    height: auto;
-    width: auto;
-
-    text-align: center;
-    line-height: 600px;
-    margin: 5px;
-}
-
-.caja:hover {
-    border: 4px solid #655d55;
-}
-
-.caja1 {
-    background-image: url(../img/knit.jpg);
-    background-size: cover;
-}
-
-.caja2 {
-    background-image: url(../img/hanger.jpg);
-    background-size: cover;
-}
 
 a {
     text-decoration: none;
     color: #655d55;
 }
+
+
+/* TEST */
+
+.buyAndSell {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.box {
+    width: 400px;
+    height: 550px;   
+    text-align: center;
+    line-height: 550px;
+}
+
+.buyBox {
+    background-image: url(../img/knit.jpg);
+    background-size: cover;
+}
+
+.sellBox {
+    background-image: url(../img/hanger.jpg);
+    background-size: cover;
+}
+
+
+.textInBox {
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.box:hover {
+    border: #655d55 4px solid;
+}
+/* TEST OVER */
+
 
 .parrafo {
     margin: 0 15%;
@@ -141,7 +146,7 @@ a {
 }
 
 .myMainCarousel {
-    margin: 0 40%;    
+    margin: 0 40%;
     height: fit-content;
     width: fit-content;
     background-size: cover;
@@ -276,14 +281,26 @@ footer .container {
 
 
 
-@media only screen and (max-width: 992px) {
-    .container-fluid {
-        flex-direction: column;
+@media (min-width: 767px) {
+    .buyAndSell {
+        display: flex;
+        flex-direction: row;
     }
 }
 
-@media only screen and (max-width: 300px) {
-    .flexContainer {
+@media (max-width: 766px) {
+    .buyAndSell {
+        display: flex;
         flex-direction: column;
     }
+
+    .box {
+        margin: auto;
+        width: 75%;
+    }
+    .box:hover {
+        border: none;
+    }
+
+    /* CONT ABOVE */
 }
