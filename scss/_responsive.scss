@@ -1,0 +1,40 @@
+@media only screen and (max-width: 768px) {
+
+    .h1,
+    .footer-main {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 767px) {
+    .buyAndSell {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 766px) {
+    .buyAndSell {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        margin: auto;
+        width: 75%;
+
+        &:hover {
+            border: none;
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .carousel-inner {
+        display: flex;
+    }
+
+    .display-2 {
+        font-size: 58px;
+    }
+}

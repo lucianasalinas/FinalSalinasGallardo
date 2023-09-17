@@ -1,41 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&display=swap');
+
 
 * {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #655d55;
 }
 
 .display-1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-style: italic;
-    padding-bottom: 20px;
-    margin: 0% 10%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: #655d55;
-}
-
-h2 {
-    margin-top: 15px;
-    font-weight: 300;
-}
-
-.enlaces {
+.footer-heading {
     font-weight: bold;
-    text-decoration: none;
-}
-
-.enlaces:hover {
-    background-color: yellow;
+    font-size: 18px;
 }
 
 /* HEADER */
+
 .headerEstilo {
     padding-bottom: 20px;
     height: 150px;
@@ -62,10 +45,12 @@ h2 {
     height: 65px;
 }
 
+
 .menu {
     display: flex;
     gap: 10px;
 }
+
 
 .btnStyle {
     background-color: gray;
@@ -77,7 +62,182 @@ h2 {
     color: #eeeae7;
 }
 
+
+
+/* GENERAL */
+body.container-fluid {
+    background-color: #eeeae7;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    margin: 20px 0px;
+}
+
+.display-1 {
+    padding-bottom: 20px;
+    margin: 0% 10%;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #655d55;
+}
+
+
+/* HOME */
+
+.buyAndSell {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.box {
+    width: 400px;
+    height: 550px;   
+    text-align: center;
+    line-height: 550px;
+}
+
+.buyBox {
+    background-image: url(../img/knit.jpg);
+    background-size: cover;
+}
+
+.sellBox {
+    background-image: url(../img/hanger.jpg);
+    background-size: cover;
+}
+
+
+.textInBox {
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+    color: #36322d;
+}
+
+.box:hover {
+    border: #655d55 solid 3px;
+}
+
+
+.parrafo {
+    margin: 0 15%;
+}
+
+
+
+/* CAROUSEL*/
+.itemCarousel {
+    height: 580px;
+}
+
+.imgCarousel {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(.6);
+}
+
+.imgCarousel-1{
+    object-position: 0 25%;
+}
+.display-2 {
+    color: #fafafa;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+}
+
+.divTexto {
+    line-height: 480px;
+}
+
+
+
+
+h2 {
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.enlaces {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.enlaces:hover {
+    background-color: yellow;
+}
+
+
+.mapa {
+    height: 300px;
+    width: 500px;
+}
+
+.formEspacio {
+    margin-bottom: 15px;
+}
+
+input,
+select,
+select.form-select:focus,
+.form-control {
+    box-shadow: none !important;
+}
+
+/* PRODUCTOS */
+
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.marginCard {
+    margin-bottom: 15px;
+}
+
+.btnEstilo {
+    color: #fafafa;
+    background-color: #655d55;
+}
+
+.btnEstilo:hover {
+    color: #fafafa;
+    background-color: #36322d;
+}
+
+/* PREGUNTAS FRECUENTES */
+
+.mapa-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.mapa-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 0;
+}
+
+
 /* FOOTER */
+
 footer {
     background-color: #B7A99C;
     color: #655d55;
@@ -113,8 +273,6 @@ footer .container {
 
 .footer-heading {
     margin-bottom: 10px;
-    font-weight: bold;
-    font-size: 18px;
 }
 
 .footer-link {
@@ -136,136 +294,17 @@ footer .container {
     margin-right: auto;
 }
 
-/* HOME */
-.buyAndSell {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-}
-
-.box {
-    width: 400px;
-    height: 550px;
-    text-align: center;
-    line-height: 550px;
-}
-
-.buyBox {
-    background-image: url(../img/knit.jpg);
-    background-size: cover;
-}
-
-.sellBox {
-    background-image: url(../img/hanger.jpg);
-    background-size: cover;
-}
-
-.textInBox {
-    font-weight: bolder;
-    font-size: 25px;
-    text-decoration: none;
-    color: #36322d;
-}
-
-.box:hover {
-    border: #655d55 solid 3px;
-}
-
-.parrafo {
-    margin: 0 15%;
-}
-
-/* CAROUSEL*/
-.itemCarousel {
-    height: 580px;
-}
-
-.imgCarousel {
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.6);
-}
-
-.imgCarousel-1 {
-    object-position: 0 25%;
-}
-
-.display-2 {
-    color: #fafafa;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif;
-    font-size: xx-large;
-}
-
-.divTexto {
-    line-height: 480px;
-}
-
-/* PRODUCTOS */
-.card-img-top {
-    width: 100%;
-    height: 30vw;
-    object-fit: cover;
-}
-
-.marginCard {
-    margin-bottom: 15px;
-}
-
-.btnEstilo {
-    color: #fafafa;
-    background-color: #655d55;
-}
-
-.btnEstilo:hover {
-    color: #fafafa;
-    background-color: #36322d;
-}
-
-.formEspacio {
-    margin-bottom: 15px;
-}
-
-input {
-    box-shadow: none !important;
-}
-
-select {
-    box-shadow: none !important;
-}
-
-select.form-select:focus {
-    box-shadow: none !important;
-}
-
-.form-control {
-    box-shadow: none !important;
-}
-
-/* PREGUNTAS FRECUENTES */
-.mapa-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-}
-
-.mapa-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    border: 0;
-}
-
 @media only screen and (max-width: 768px) {
+    .h1 {
+        flex-direction: column;
+    }
 
-    .h1,
     .footer-main {
         flex-direction: column;
     }
 }
+
+
 
 @media (min-width: 767px) {
     .buyAndSell {
@@ -284,31 +323,16 @@ select.form-select:focus {
         margin: auto;
         width: 75%;
     }
-
     .box:hover {
         border: none;
     }
 }
 
 @media screen and (min-width: 800px) {
-    .carousel-inner {
+    .carousel-inner{
         display: flex;
     }
-
     .display-2 {
         font-size: 58px;
     }
 }
-
-/* GENERAL */
-body.container-fluid {
-    background-color: #eeeae7;
-    margin: 0px;
-    padding: 0px;
-}
-
-main {
-    margin: 20px 0px;
-}
-
-/*# sourceMappingURL=style.css.map */

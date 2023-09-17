@@ -1,0 +1,21 @@
+/* PRODUCTOS */
+
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.marginCard {
+    margin-bottom: 15px;
+}
+
+.btnEstilo {
+    color: #fafafa;
+    background-color: #655d55;
+
+    &:hover {
+        color: #fafafa;
+        background-color: #36322d;
+    }
+}

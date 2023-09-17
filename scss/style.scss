@@ -1,0 +1,22 @@
+@import "variables";
+@import "reset";
+@import "fuentes";
+@import "header";
+@import "footer";
+@import "home";
+@import "productos";
+@import "vender";
+@import "preguntas";
+@import "responsive";
+
+/* GENERAL */
+
+body.container-fluid {
+    background-color: #eeeae7;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    margin: 20px 0px;
+}

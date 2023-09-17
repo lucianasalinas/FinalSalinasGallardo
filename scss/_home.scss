@@ -1,0 +1,66 @@
+/* HOME */
+
+.buyAndSell {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.box {
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    line-height: 550px;
+}
+
+.buyBox {
+    background-image: url(../img/knit.jpg);
+    background-size: cover;
+}
+
+.sellBox {
+    background-image: url(../img/hanger.jpg);
+    background-size: cover;
+}
+
+.textInBox {
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+    color: #36322d;
+}
+
+.box:hover {
+    border: #655d55 solid 3px;
+}
+
+.parrafo {
+    margin: 0 15%;
+}
+
+/* CAROUSEL*/
+
+.itemCarousel {
+    height: 580px;
+}
+
+.imgCarousel {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.imgCarousel-1 {
+    object-position: 0 25%;
+}
+
+.display-2 {
+    color: #fafafa;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+}
+
+.divTexto {
+    line-height: 480px;
+}

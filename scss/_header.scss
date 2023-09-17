@@ -1,0 +1,42 @@
+/* HEADER */
+
+.headerEstilo {
+    padding-bottom: 20px;
+    height: 150px;
+    background-color: #B7A99C;
+    font-size: 20px;
+}
+
+.navColor {
+    background-color: #B7A99C;
+    padding-bottom: 20px;
+    margin: 0;
+    z-index: 3;
+}
+
+.navEstilo {
+    color: #655d55;
+
+    &:hover {
+        border: 2px solid #655d55;
+    }
+}
+
+.logo {
+    height: 65px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+.btnStyle {
+    background-color: gray;
+    color: #fafafa;
+
+    &:hover {
+        background-color: #655d55;
+        color: #eeeae7;
+    }
+}

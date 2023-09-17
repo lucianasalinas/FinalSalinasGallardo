@@ -1,0 +1,19 @@
+.formEspacio {
+    margin-bottom: 15px;
+}
+
+input {
+    box-shadow: none !important;
+}
+
+select {
+    box-shadow: none !important;
+
+    &.form-select:focus {
+        box-shadow: none !important;
+    }
+}
+
+.form-control {
+    box-shadow: none !important;
+}
