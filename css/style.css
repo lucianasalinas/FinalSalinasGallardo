@@ -51,9 +51,6 @@
     gap: 10px;
 }
 
-/* .navSearch {
-    color: red
-} */
 
 .btnStyle {
     background-color: gray;
@@ -67,7 +64,7 @@
 
 
 
-/* MAIN */
+/* GENERAL */
 body.container-fluid {
     background-color: #eeeae7;
     margin: 0px;
@@ -89,16 +86,13 @@ main {
 }
 
 
-
-
-
 a {
     text-decoration: none;
     color: #655d55;
 }
 
 
-/* TEST */
+/* HOME */
 
 .buyAndSell {
     display: flex;
@@ -128,37 +122,51 @@ a {
     font-weight: bolder;
     font-size: 25px;
     text-decoration: none;
-    color: black;
+    color: #36322d;
 }
 
 .box:hover {
-    border: #655d55 4px solid;
+    border: #655d55 solid 3px;
 }
-/* TEST OVER */
 
 
 .parrafo {
     margin: 0 15%;
 }
 
-.fotoCarousel {
-    background-size: cover;
+
+
+/* CAROUSEL*/
+.itemCarousel {
+    height: 580px;
 }
 
-.myMainCarousel {
-    margin: 0 40%;
-    height: fit-content;
-    width: fit-content;
-    background-size: cover;
+.imgCarousel {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(.6);
 }
 
+.imgCarousel-1{
+    object-position: 0 25%;
+}
+.display-2 {
+    color: #fafafa;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+}
 
+.divTexto {
+    line-height: 480px;
+}
 
 
 
 
 h2 {
     margin-top: 15px;
+    font-weight: 300;
 }
 
 .enlaces {
@@ -209,6 +217,23 @@ select.form-select:focus,
     background-color: #36322d;
 }
 
+/* PREGUNTAS FRECUENTES */
+
+.mapa-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.mapa-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 0;
+}
 
 
 /* FOOTER */
@@ -301,6 +326,13 @@ footer .container {
     .box:hover {
         border: none;
     }
+}
 
-    /* CONT ABOVE */
+@media screen and (min-width: 800px) {
+    .carousel-inner{
+        display: flex;
+    }
+    .display-2 {
+        font-size: 58px;
+    }
 }
