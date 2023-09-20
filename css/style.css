@@ -16,6 +16,10 @@
     text-align: center;
 }
 
+.animate__animated.animate__flash {
+    --animate-duration: 2s;
+}
+
 a {
     text-decoration: none;
     color: #655d55;
@@ -299,15 +303,17 @@ select.form-select:focus {
         font-size: 58px;
     }
 }
+
 /* MIXINS */
 button {
     color: #fafafa;
     background-color: #655d55;
-  }
-  button:hover {
+}
+
+button:hover {
     color: #fafafa;
     background-color: #36322d;
-  }
+}
 
 /* GENERAL */
 body.container-fluid {
