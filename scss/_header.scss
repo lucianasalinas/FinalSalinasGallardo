@@ -1,24 +1,33 @@
 /* HEADER */
+@mixin boton {
+    color: $color-blanco;
+    background-color: $color-beigeOscuro;
+
+    &:hover {
+        color: $color-blanco;
+        background-color: #36322d;
+    }
+}
 
 .headerEstilo {
     padding-bottom: 20px;
     height: 150px;
-    background-color: #B7A99C;
+    background-color: $color-beigeClaro;
     font-size: 20px;
 }
 
 .navColor {
-    background-color: #B7A99C;
+    background-color: $color-beigeClaro;
     padding-bottom: 20px;
     margin: 0;
     z-index: 3;
 }
 
 .navEstilo {
-    color: #655d55;
+    color: $color-beigeOscuro;
 
     &:hover {
-        border: 2px solid #655d55;
+        border: 2px solid $color-beigeOscuro;
     }
 }
 
@@ -31,12 +40,7 @@
     gap: 10px;
 }
 
-.btnStyle {
-    background-color: gray;
-    color: #fafafa;
 
-    &:hover {
-        background-color: #655d55;
-        color: #eeeae7;
-    }
+.btnStyle {
+    @include boton;
 }

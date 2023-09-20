@@ -31,7 +31,7 @@
 }
 
 .box:hover {
-    border: #655d55 solid 3px;
+    border: $color-beigeOscuro solid 3px;
 }
 
 .parrafo {
@@ -55,7 +55,7 @@
 }
 
 .display-2 {
-    color: #fafafa;
+    color: $color-blanco;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     font-size: xx-large;

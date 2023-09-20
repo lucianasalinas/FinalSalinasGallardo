@@ -3,7 +3,7 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
-    color: #655d55;
+    color: $color-beigeOscuro;
 }
 
 .display-1 {
@@ -19,7 +19,7 @@
 
 a {
     text-decoration: none;
-    color: #655d55;
+    color: $color-beigeOscuro;
 }
 
 h2 {
@@ -32,6 +32,6 @@ h2 {
     text-decoration: none;
 
     &:hover {
-        background-color: yellow;
+        background-color: $color-amarillo;
     }
 }

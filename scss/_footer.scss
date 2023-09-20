@@ -1,14 +1,14 @@
 /* FOOTER */
 
 footer {
-    background-color: #B7A99C;
-    color: #655d55;
+    background-color: $color-beigeClaro;
+    color: $color-beigeOscuro;
     padding: 20px 0px;
     display: flex;
     justify-content: center;
 
     a {
-        color: #655d55;
+        color: $color-beigeOscuro;
         text-decoration: none;
 
         &:hover {

@@ -68,13 +68,13 @@ h2 {
 }
 
 .btnStyle {
-    background-color: gray;
     color: #fafafa;
+    background-color: #655d55;
 }
 
 .btnStyle:hover {
-    background-color: #655d55;
-    color: #eeeae7;
+    color: #fafafa;
+    background-color: #36322d;
 }
 
 /* FOOTER */
@@ -299,6 +299,15 @@ select.form-select:focus {
         font-size: 58px;
     }
 }
+/* MIXINS */
+button {
+    color: #fafafa;
+    background-color: #655d55;
+  }
+  button:hover {
+    color: #fafafa;
+    background-color: #36322d;
+  }
 
 /* GENERAL */
 body.container-fluid {

@@ -11,11 +11,5 @@
 }
 
 .btnEstilo {
-    color: #fafafa;
-    background-color: #655d55;
-
-    &:hover {
-        color: #fafafa;
-        background-color: #36322d;
-    }
+    @include boton;
 }
