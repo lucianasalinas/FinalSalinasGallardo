@@ -17,7 +17,7 @@
 }
 
 .animate__animated.animate__flash {
-    --animate-duration: 2s;
+    --animate-duration: 3s;
 }
 
 a {
@@ -26,7 +26,7 @@ a {
 }
 
 h2 {
-    margin-top: 15px;
+    margin-top: 25px;
     font-weight: 300;
 }
 
@@ -176,7 +176,7 @@ footer .container {
 }
 
 .parrafo {
-    margin: 0 15%;
+    margin: 0 5%;
 }
 
 /* CAROUSEL*/
@@ -203,6 +203,10 @@ footer .container {
 
 .divTexto {
     line-height: 480px;
+}
+
+.btnCarousel:hover {
+    background-color: #36322d 0;
 }
 
 /* PRODUCTOS */
@@ -310,11 +314,6 @@ button {
     background-color: #655d55;
 }
 
-button:hover {
-    color: #fafafa;
-    background-color: #36322d;
-}
-
 /* GENERAL */
 body.container-fluid {
     background-color: #eeeae7;
@@ -325,5 +324,6 @@ body.container-fluid {
 main {
     margin: 20px 0px;
 }
+
 
 /*# sourceMappingURL=style.css.map */
